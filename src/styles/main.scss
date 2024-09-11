@@ -1,0 +1,104 @@
+/* ==============
+ ========= css documentation =========
+
+ * theme name: realitai
+ * version: 1.0
+ 
+ 01. abstracts
+     1.01 --> mixins
+     1.02 --> variables
+    
+ 02. base
+     2.01 --> reset
+     2.02 --> typography
+     2.03 --> global
+
+ 03. components
+     3.01 --> buttons
+     3.02 --> forms
+     3.03 --> preloader
+
+ 04. layout
+     4.01 --> header
+     4.02 --> banner
+     4.03 --> footer
+
+ 05. sections
+     5.01 --> agency styles
+     5.02 --> agency two styles
+     5.03 --> portfolio
+     5.04 --> poftfolio two styles
+     5.05 --> masonry filter styles
+     5.06 --> portfolio three styles
+     5.07 --> offer styles
+     5.08 --> offer two styles
+     5.09 --> testimonial styles
+     5.10 --> testimonial two styles
+     5.11 --> testimonial three syles
+     5.12 --> blog styles
+     5.13 --> blog two styles
+     5.14 --> blog three styles
+     5.15 --> sponsor styles
+     5.16 --> sponsor three styles
+     5.17 --> next page styles
+     5.18 --> award styles
+     5.19 --> video modal styles
+     5.20 --> cta styles
+     5.21 --> cta two styles
+     5.22 --> service faq styles
+     5.23 --> work steps styles
+     5.24 --> projects 
+     5.25 --> project text slider
+     5.26 --> team slider
+     5.27 --> mission styles
+     5.28 --> achievements
+     5.29 --> service plan
+     5.30 --> ux process
+     5.31 --> project styles
+     5.32 --> project details
+     5.33 --> blog styles
+     5.34 --> blog details
+     5.35 --> blog comment form
+     5.36 --> team main
+     5.37 --> team details
+     5.38 --> portfolio
+     5.39 --> feedback
+     5.40 --> faq
+     5.41 --> contact
+     5.42 --> error
+
+ 06. themes
+     6.01 --> default theme
+
+ 07. responsive
+
+    ==================================
+============== */
+
+// abstract styles
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+// base styles
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/global";
+
+// component styles
+@import "./components/buttons";
+@import "./components/forms";
+@import "./components/preloader";
+
+// layout styles
+@import "./layout/header";
+@import "./layout/banner";
+@import "./layout/footer";
+
+// section styles
+@import "./sections/all-sections";
+
+// themes styles
+@import "./themes/light-theme";
+
+// responsive styles
+@import "./responsive";
