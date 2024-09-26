@@ -13,14 +13,14 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
   return (
     <>
       <section
-        className="cmn-banner bg-img"
+        className="cmn-banner bg-img bg-slate-300"
         style={{ backgroundImage: "url('/images/banner/cmn-banner-bg.jpg')" }}
       >
         <div className="container">
           <div className="row gaper align-items-center">
             <div className="col-12 col-lg-5 col-xl-7">
               <div className="text-center text-lg-start">
-                <h2 className="title title-anim">{title}</h2>
+                <h2 className="title title-anim text-white">{title}</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -43,7 +43,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             </div>
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
-                <p className="primary-text">
+                <p className="primary-text text-white">
                   Our team of experts is passionate about harnessing the power
                   of AI to drive growth and efficiency.
                 </p>

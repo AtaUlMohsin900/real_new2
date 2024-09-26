@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo3.png";
 
 interface HeaderProps {
   openNav: boolean;
@@ -84,10 +84,10 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               <i className="fa-light fa-xmark-large"></i>
             </button>
           </div>
-          <div className="offcanvas-menu__list">
+          <div className="offcanvas-menu__list ">
             <div className="navbar__menu">
               <ul>
-                <li className="navbar__item navbar__item--has-children nav-fade">
+                <li className="navbar__item navbar__item--has-children nav-fade text-black">
                   <Link href="/">Home</Link>
                 </li>
                 <li className="navbar__item nav-fade">

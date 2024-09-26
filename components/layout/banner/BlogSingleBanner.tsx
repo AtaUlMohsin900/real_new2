@@ -5,13 +5,13 @@ const BlogSingleBanner = () => {
   return (
     <section
       className="cmn-banner bg-img"
-      style={{ backgroundImage: "url('/images/banner/cmn-banner-bg.jpg')" }}
+      style={{ backgroundImage: "url('/images/banner/cmn-banner-bg.png')" }}
     >
       <div className="container">
         <div className="row gaper align-items-center">
           <div className="col-12">
             <div className="text-center text-lg-start">
-              <h2 className="title title-anim">
+              <h2 className="title title-anim text-white">
                 What is AI Development and History of Artificial ?
               </h2>
               <nav aria-label="breadcrumb">

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import thumb from "../../../public/images/footer/footer-three-thumb.png";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo4.png";
 
 const FooterThree = () => {
   const currentYear = new Date().getFullYear();
@@ -15,7 +15,7 @@ const FooterThree = () => {
               <div className="footer-thumb">
                 <Image src={thumb} alt="Image" />
                 <div className="footer-thumb__content">
-                  <h5>head quarters, USA</h5>
+                  <h5 className="text-white">head quarters, USA</h5>
                 </div>
               </div>
               <div className="footer-three__group ps-0">
@@ -68,7 +68,7 @@ const FooterThree = () => {
                       href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                       target="_blank"
                     >
-                      <i className="fa-sharp fa-solid fa-location-dot"></i>
+                      <i className="fa-sharp fa-solid fa-location-dot "></i>
                       Wolfhager Strasse 425 - 70 Germany
                     </Link>
                   </li>
@@ -226,10 +226,10 @@ const FooterThree = () => {
                         Copyright &copy;
                         <span id="copyYear">{currentYear}</span> realitai by{" "}
                         <Link
-                          href="https://themeforest.net/user/UltraDevs"
+                          href="#"
                           target="_blank"
                         >
-                          UltraDevs
+                          IT Section
                         </Link>{" "}
                         . All Rights Reserved
                       </p>

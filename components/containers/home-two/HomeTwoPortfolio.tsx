@@ -39,7 +39,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Telecom Network Dev
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -49,7 +49,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  Web Development
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -59,7 +59,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Gen AI Services
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -69,7 +69,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  Cloud App Dev
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -79,7 +79,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Business Services
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -89,7 +89,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  IT Services
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -99,7 +99,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Advertising
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>

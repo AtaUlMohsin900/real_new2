@@ -13,9 +13,7 @@ const IT_TelecomTwo = () => {
                 more services
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">
-                Our Upcoming AI Development Services
-              </h2>
+              <h2>Our Upcoming AI Development Services</h2>
             </div>
           </div>
         </div>

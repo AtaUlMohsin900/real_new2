@@ -29,7 +29,7 @@ const TeamMain = () => {
                   <h4>
                     <Link href="team-single">Vijay Singh</Link>
                   </h4>
-                  <p>Sr. Product Designer</p>
+                  <p className="text-black">Sr. Product Designer</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"

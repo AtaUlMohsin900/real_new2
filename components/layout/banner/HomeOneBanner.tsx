@@ -48,7 +48,7 @@ const HomeOneBanner = () => {
   return (
     <>
       <section
-        className="banner "
+        className="banner"
         style={{
           backgroundImage: "url('/images/banner/main.jpg')",
           // height: "100vh",
@@ -74,7 +74,7 @@ const HomeOneBanner = () => {
                     </span>
                   </h1>
 
-                  <div className="banner__content-inner">
+                  <div className="banner__content-inner ">
                     <p>
                       Realitai is a IT & AI Training and Development Agency,
                       specializing in providing comprehensive web, mobile, and

@@ -24,7 +24,7 @@ const HomeBlog = () => {
             <div className="blog__single fade-top">
               <div className="blog__single-thumb topy-tilt">
                 <Link href="blog-single">
-                  <Image src={one} alt="Image" className="opacity-50" />
+                  <Image src={one} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
@@ -47,7 +47,7 @@ const HomeBlog = () => {
             <div className="blog__single fade-top">
               <div className="blog__single-thumb topy-tilt">
                 <Link href="blog-single">
-                  <Image src={two} alt="Image" className="opacity-50" />
+                  <Image src={two} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">

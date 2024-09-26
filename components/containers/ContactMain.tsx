@@ -5,6 +5,9 @@ import phone from "../../public/images/phone.png";
 import mail from "../../public/images/mail.png";
 import location from "../../public/images/location.png";
 import time from "../../public/images/time.png";
+import contact1 from "../../public/images/contact1.jpg";
+import contact2 from "../../public/images/contact2.jpg";
+
 // import nodemailer from '@types/nodemailer'
 
 const ContactMain = () => {
@@ -33,19 +36,19 @@ const ContactMain = () => {
     <section className="section contact-m fade-wrapper">
       <div className="container">
         <div className="row gaper">
-          <div className="col-12 col-sm-6 col-xl-3">
+          <div className="col-12 col-sm-6 col-xl-3 rounded-full">
             <div className="contact-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Image src={phone} alt="Phone" />
               </div>
               <div className="content">
                 <h4>Phone & Fax</h4>
-                <p>
+                <h5>
                   <Link href="tel:+923335512815">Mobile : +92-3335512815</Link>
-                </p>
-                <p>
+                </h5>
+                <h6>
                   <Link href="tel:+925111234567">Fax : +92-51-11234567</Link>
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -56,11 +59,11 @@ const ContactMain = () => {
               </div>
               <div className="content">
                 <h4>Mail Address</h4>
-                <p>
+                <h5>
                   <Link href="mailto:Info../..realitai.net">
                     Info../..realitai.net
                   </Link>
-                </p>
+                </h5>
               </div>
             </div>
           </div>
@@ -100,37 +103,13 @@ const ContactMain = () => {
             <div className="map-wrapper">
               <div className="row gaper">
                 <div className="col-12 col-lg-6">
-                  <div>
-                    <ul className="zyx-cflb row pt-5 text-xl">
-                      <Link
-                        id="main-content"
-                        href="#target-content"
-                        tabIndex={-1}
-                        className="focus:outline-none focus:ring-2 focus:ring-blue-500 "
-                      >
-                        General Enquiry
-                      </Link>
+                  <div className="flex flex-col items-center">
+                    <Image src={contact1} alt="Image 1" className="mb-5" />
 
-                      <Link
-                        id="main-content"
-                        href="#target-content"
-                        tabIndex={-1}
-                        className="focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      >
-                        Sales Enquiry
-                      </Link>
-                      <ul className="zyx-cflb row pt-5 text-xl font-size:12px">
-                        <Link
-                          className="zyx-link--no-style"
-                          href="/service-provider/global/en/download-enquiry"
-                        >
-                          Download Enquiry
-                        </Link>
-                      </ul>
-                    </ul>
+                    <Image src={contact2} alt="Image 2" className="mt-5" />
                   </div>
                 </div>
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-lg-6 ">
                   <div className="contact-main__form fade-top">
                     <h3>General Enquiry</h3>
                     <form

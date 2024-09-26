@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import avatar from "../../public/images/testimonial/avatar.png";
-import avatar2 from "../../public/images/testimonial/avatar2.png";
-import avatar3 from "../../public/images/testimonial/avatar3.png";
-import avatar4 from "../../public/images/testimonial/avatar4.png";
-import avatar5 from "../../public/images/testimonial/avatar5.png";
-import avatar6 from "../../public/images/testimonial/avatar6.png";
+import avatar from ".././../public/images/AvatarBg.png";
+import avatar2 from "../../public/images/AvatarBg.png";
+import avatar3 from "../../public/images/AvatarBg.png";
+import avatar4 from "../../public/images/AvatarBg.png";
+import avatar5 from "../../public/images/AvatarBg.png";
+import avatar6 from "../../public/images/AvatarBg.png";
 
 const ClientFeedbackMain = () => {
   return (

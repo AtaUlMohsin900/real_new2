@@ -121,10 +121,7 @@ const BlogMain = () => {
                       <div className="radio">
                         <div className="audio-player">
                           <audio controls>
-                            <source
-                              src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"
-                              type="audio/mp3"
-                            />
+                            <source src="#" type="audio/mp3" />
                           </audio>
                         </div>
                       </div>
@@ -133,10 +130,10 @@ const BlogMain = () => {
                       <div className="meta__left">
                         <p>
                           <strong>Written by :</strong>
-                          Joseph Daniel
+                          Stiphen
                         </p>
                         <span></span>
-                        <p>10/01/2023</p>
+                        <p>01/09/2024</p>
                       </div>
                       <div className="meta__right">
                         <Link href="blog">Nature</Link>

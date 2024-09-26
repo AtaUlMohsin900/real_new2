@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo4.png";
 import logoLight from "../../../public/images/logo-light.png";
 
 const FooterFour = () => {
@@ -20,7 +20,7 @@ const FooterFour = () => {
   }
 
   return (
-    <footer className="section footer-four pb-0">
+    <footer className="section footer-four pb-0 bg-[#6ccdac]">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -67,11 +67,8 @@ const FooterFour = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
-              <Link
-                href="mailto:hello../..website.com"
-                className="text-capitalize"
-              >
-                hello../..website.com
+              <Link href="mailto:ghulam.shabbir@realitai.net  ">
+                https://realitai.net
               </Link>
             </div>
           </div>
@@ -89,7 +86,7 @@ const FooterFour = () => {
                         Copyright &copy;{" "}
                         <span id="copyYear">{currentYear}</span> realitai by{" "}
                         <Link href="#" target="_blank">
-                          UltraDevs{" "}
+                          IT Section{" "}
                         </Link>
                         . All Rights Reserved
                       </p>

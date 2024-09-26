@@ -1137,7 +1137,7 @@
       letter-spacing: 1px;
 
       .text-stroke {
-        -webkit-text-stroke: 0.5px var(--primary-color);
+        -webkit-text-stroke: 0.5px var(--theme-color);
       }
     }
 
@@ -1226,7 +1226,7 @@
 
       &:nth-of-type(even) {
         h2 {
-          -webkit-text-stroke: 0.5px var(--white);
+          -webkit-text-stroke: 0.5px var(--secondary-color);
         }
       }
     }
@@ -1236,7 +1236,7 @@
     .testimonial__text-slider-single {
       h2 {
         margin-top: -8px;
-        -webkit-text-stroke: 0.5px var(--white);
+        -webkit-text-stroke: 0.5px var(--theme-color);
       }
     }
   }
@@ -1257,7 +1257,7 @@
       &:nth-of-type(even) {
         h2 {
           a {
-            -webkit-text-stroke: 0.5px var(--white);
+            -webkit-text-stroke: 0.5px var(--theme-color);
           }
         }
       }
@@ -1467,6 +1467,12 @@
 }
 
 @media only screen and (min-width: 576px) {
+}
+@media (orientation: portrait) {
+  /* CSS for portrait orientation */
+}
+@media (orientation: landscape) {
+  /* CSS for landscape orientation */
 }
 
 /* ==== 

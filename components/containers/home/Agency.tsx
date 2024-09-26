@@ -99,7 +99,7 @@ const Agency = () => {
                 WELCOME
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">
+              <h2 className="font-normal md:font-bold ...">
                 Empowering our Businesses with Expert Software,IT & AI Training
                 and Development
               </h2>

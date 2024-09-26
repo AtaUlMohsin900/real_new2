@@ -43,7 +43,7 @@ const HomeFourBanner = () => {
           <div className="col-12">
             <div className="banner-four__content">
               <div className="intro">
-                <p>
+                <p className="text-white">
                   I&apos;m a brand led designer that combines creative with
                   strategy to create compelling brand identity and digital
                   design experiences.
@@ -52,12 +52,12 @@ const HomeFourBanner = () => {
                   <span className="arrow"></span>
                 </div>
               </div>
-              <div className="banner-four__title">
+              <div className="banner-four__title ">
                 <h1>
                   I am a digital designer
                   <Link className="frame g-ban-frame" href="about-us">
                     <Image src={videoframethree} alt="Image" />
-                    <i className="fa-solid fa-arrow-up-right"></i>
+                    <i className="fa-solid fa-arrow-up-right "></i>
                   </Link>
                   & dreamer
                 </h1>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import star from "../../../public/images/star.png";
 import dotlarge from "../../../public/images/agency/dot-large.png";
-import clutch from "../../../public/images/agency/clutch.png";
+import clutch from "../../../public/images/agency/realitai.png";
 import thumbthree from "../../../public/images/agency/thumb-three2.png";
 
 const HomeThreeAgency = () => {
@@ -22,7 +22,7 @@ const HomeThreeAgency = () => {
                 About Us
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">
+              <h2 className="title">
                 REALITAI is Empowering Innovations with AI / GenAI
               </h2>
               <div className="paragraph">

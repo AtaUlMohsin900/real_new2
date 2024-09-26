@@ -36,7 +36,7 @@ const HomeTwoModal = () => {
   }, []);
   return (
     <>
-      <div className="video-modal opacity-50">
+      <div className="video-modal">
         <Image src={healthcare} alt="Image" className="healthcare" />
         <button
           className="video-frame video-btn"

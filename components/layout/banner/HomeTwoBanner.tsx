@@ -54,23 +54,25 @@ const HomeTwoBanner = () => {
                 </div>
                 <div className="cta section__content-cta m-0">
                   <div className="single">
-                    <h5 className="fw-7">10+</h5>
+                    <h5 className="fw-7">05+</h5>
                     <p className="fw-5">years of experience</p>
                   </div>
                   <div className="single">
-                    <h5 className="fw-7">25k</h5>
+                    <h5 className="fw-7">01k</h5>
                     <p className="fw-5">completed projects</p>
                   </div>
                 </div>
               </div>
               <div className="banner-two__content">
-                <h1 className="title-anim">
-                  THE <span>IT & AI Training and Development</span> AGENCY FOR
-                  EXCELLENT SERVICES
+                <h1 className="title-anim  flex space-x-4 text-black">
+                  <span className="text-white">
+                    AI Training and Development
+                  </span>
+                  AGENCY FOR EXCELLENT SERVICES
                 </h1>
                 <div className="banner-two__content-cta section__content-cta">
                   <div className="paragraph">
-                    <p>
+                    <p className="text-black">
                       Realitai is an IT & AI Training and Development Agency,
                       specializing in providing comprehensive web, mobile, and
                       Web3 UX design solutions across various businesses for

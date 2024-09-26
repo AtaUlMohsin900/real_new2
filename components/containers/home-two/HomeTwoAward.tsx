@@ -39,17 +39,17 @@ const HomeTwoAward = () => {
               <div className="award__content-meta">
                 <div className="single">
                   <h4>2018</h4>
-                  <h4>Awwwards</h4>
+                  <h4>Awards</h4>
                   <p>Website of the day</p>
                 </div>
                 <div className="single">
                   <h4>2020</h4>
-                  <h4>Awwwards</h4>
+                  <h4>Awards</h4>
                   <p>National design contest</p>
                 </div>
                 <div className="single">
                   <h4>2022</h4>
-                  <h4>Awwwards</h4>
+                  <h4>Awards</h4>
                   <p>Apps of the day</p>
                 </div>
               </div>

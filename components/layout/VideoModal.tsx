@@ -14,7 +14,12 @@ const VideoModal = () => {
           <i className="fa-light fa-xmark-large"></i>
         </button>
         <video autoPlay loop muted controls>
-          <source src="/images/realitai.mp4" type="video/mp4" width="600" height="400" />
+          <source
+            src="/images/realitai.mp4"
+            type="video/mp4"
+            width="600"
+            height="400"
+          />
         </video>
         <h5>Hello</h5>
       </div>

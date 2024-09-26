@@ -49,12 +49,14 @@ const WorkStepsProject = () => {
                         working steps
                         <i className="fa-solid fa-arrow-right"></i>
                       </span>
-                      <h2 className="title title-anim">Our Work Process</h2>
+                      <h2 className="title title-anim text-white">
+                        Our Work Process
+                      </h2>
                     </div>
                   </div>
                   <div className="col-12 col-lg-7 col-xxl-5 offset-xxl-2">
                     <div className="text-center text-lg-start">
-                      <p>
+                      <p className="text-white">
                         Bring to the table win-win survival strategies to ensure
                         proactive domination. At the end of the day, going
                         forward, a new normal that has evolved from generation

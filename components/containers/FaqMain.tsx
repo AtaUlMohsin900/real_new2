@@ -21,7 +21,7 @@ const FaqMain = () => {
                   (imgTab === 0 ? " faq-one-active" : " ")
                 }
               >
-                <h5 className="accordion-header" id="headingOne">
+                <h5 className="accordion-header" id="headingOne text-white">
                   <button
                     className={
                       (imgTab == 0 ? "  " : " collapsed") + " accordion-button"

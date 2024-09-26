@@ -135,13 +135,14 @@
       color: black;
     }
     .btn--secondary {
-      border-color: var(--primary-color);
-      color: var(--primary-color);
+      border-color: var(--button-color);
+      color: var(--button-color);
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
       &:hover {
+        background-color: #e5201f;
         color: black;
       }
     }
@@ -151,7 +152,7 @@
         button {
           color: black;
           &:hover {
-            color: var(--primary-color);
+            color: var(--theme-color);
           }
         }
       }

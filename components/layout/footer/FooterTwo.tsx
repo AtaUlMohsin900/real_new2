@@ -26,7 +26,7 @@ const FooterTwo = () => {
         },
       });
 
-      const folksGradient = chroma.scale(["#56e0ff", "#f3e8fd"]);
+      const folksGradient = chroma.scale(["#6ccdac", "#f3e8fd"]);
 
       animatedChars.forEach((charElement, index) => {
         const delay = index * 0.04;
@@ -106,18 +106,18 @@ const FooterTwo = () => {
   }, []);
 
   return (
-    <footer className="footer-two section pb-0">
+    <footer className="footer-two-dark section pb-0">
       <div className="container">
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-4">
-            <div className="footer-two__left">
+            <div className="footer-two__left-dark">
               <div className="logo">
                 <Link href="/">
                   <Image src={logo} priority alt="Image" />
                 </Link>
               </div>
               <div className="paragraph">
-                <p>
+                <p className="text-white">
                   Welcome to REALITAI We specialize in helping business most
                   like yours succeed online. From website design and
                   development.
@@ -146,30 +146,30 @@ const FooterTwo = () => {
             </div>
           </div>
           <div className="col-12 col-lg-7 col-xl-7 offset-xl-1 col-xxl-5 offset-xxl-3">
-            <div className="footer-two__right">
-              <div className="social justify-content-start justify-content-lg-start">
+            <div className="footer-two__right-dark">
+              <div className="social justify-content-start justify-content-lg-start ">
                 <Link href="https://www.facebook.com/" target="_blank">
                   <i className="fa-brands fa-facebook-f"></i>
-                  <span>Facebook</span>
+                  <span className="text-white">Facebook</span>
                 </Link>
                 <Link href="https://www.twitter.com/" target="_blank">
                   <i className="fa-brands fa-twitter"></i>
-                  <span>Twitter</span>
+                  <span className="text-white">Twitter</span>
                 </Link>
                 <Link href="https://www.pinterest.com/" target="_blank">
                   <i className="fa-brands fa-linkedin-in"></i>
-                  <span>Linkedin</span>
+                  <span className="text-white">Linkedin</span>
                 </Link>
                 <Link href="https://www.instagram.com/" target="_blank">
                   <i className="fa-brands fa-instagram"></i>
-                  <span>Instagram</span>
+                  <span className="text-white">Instagram</span>
                 </Link>
                 <Link href="https://www.dribble.com/" target="_blank">
                   <i className="fa-light fa-basketball"></i>
-                  <span>Dribble</span>
+                  <span className="text-white">Dribble</span>
                 </Link>
               </div>
-              <div className="footer__single-meta section__content-cta">
+              <div className="footer__single-dark section__content-cta">
                 <Link
                   href="https://www.google.com/maps/place/Media+Foundation+Building/../..33.6950944,73.0486352,17z/data=!3m1!4b1!4m6!3m5!1s0x38dfbfc8b476e783:0x1ad4388535624284!8m2!3d33.69509!4d73.0512101!16s%2Fg%2F11_k2bf5k?entry=ttu"
                   target="_blank"
@@ -191,27 +191,23 @@ const FooterTwo = () => {
           </div>
         </div>
       </div>
-      <div className="footer__copyright">
+      <div className="footer__copyright-dark">
         <div className="container">
           <div className="row align-items-center gaper">
             <div className="col-12 col-xl-6">
-              <div className="footer__copyright-text text-center text-xl-start">
+              <div className="copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
                   <span id="copyYear">{currentYear}</span> realitai by{" "}
-                  <Link
-                    href="https://themeforest.net/user/UltraDevs"
-                    target="_blank"
-                  >
+                  <Link href="#" target="_blank">
                     {" "}
-                    UltraDevs
+                    IT Section
                   </Link>{" "}
-                  . All Rights Reserved
                 </p>
               </div>
             </div>
             <div className="col-12 col-xl-6">
-              <ul className="justify-content-center justify-content-xl-end">
+              <ul className="justify-content-center justify-content-xl-end  ">
                 <li>
                   <Link href="/">Home</Link>
                 </li>

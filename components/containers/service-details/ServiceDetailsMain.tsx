@@ -12,7 +12,7 @@ const ServiceDetailsMain = () => {
             <div className="service-details__slider">
               <div className="service-details__slider-single">
                 <div className="poster fade-top">
-                  <Image src={thumbone} alt="Image" className="opacity-50" />
+                  <Image src={thumbone} alt="Image"/>
                 </div>
                 <div className="details-group section__cta text-start">
                   <h3 className="title-anim">

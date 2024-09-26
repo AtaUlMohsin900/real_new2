@@ -100,7 +100,7 @@ const HomeThreeServices = () => {
                   </span>
                   <h4>Modernization</h4>
                   <div className="p-single">
-                    <p>
+                    <p className="text-white">
                       We build intelligent next-generation solutions at the
                       intersection of new business opportunities and
                       technological innovations.

@@ -4,9 +4,9 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import sthumb from "../../../public/images/testimonial/4609189.jpg";
-import sthumbtwo from "../../../public/images/testimonial/7457039.png";
-import sthumbthree from "../../../public/images/testimonial/6042016.png";
+import sthumb from "../../../public/images/AvatarBg.png";
+import sthumbtwo from "../../../public/images/AvatarBg.png";
+import sthumbthree from "../../../public/images/AvatarBg.png";
 
 const HomeTestimonial = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);
@@ -36,7 +36,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="client-feedback text-black">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -46,7 +46,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="client-feedback text-black">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -56,7 +56,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="client-feedback text-black">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -66,7 +66,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="client-feedback text-black">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -76,7 +76,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="client-feedback text-black">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -86,7 +86,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="client-feedback text-black">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>

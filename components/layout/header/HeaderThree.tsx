@@ -30,7 +30,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
     };
   }, []);
 
-  const defaultClasses = "primary-navbar tertiary--navbar";
+  const defaultClasses = "primary-navbar theme--navbar";
 
   const combinedClasses = `${
     scrolled ? " navbar-active" : " "
@@ -53,7 +53,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     <ul>
                       <li className="navbar__item nav-fade">
                         <Link href="tel:406-555-0120">
-                          <i className="fa-sharp fa-solid fa-phone-volume"></i>
+                          <i className="fa-sharp fa-solid fa-phone-volume flex-lg-row"></i>
                           (406) 555-0120
                         </Link>
                       </li>

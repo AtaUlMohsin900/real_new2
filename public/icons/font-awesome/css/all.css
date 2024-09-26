@@ -309,6 +309,13 @@
   -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
   animation-timing-function: var(--fa-animation-timing, steps(8));
 }
+@media (orientation: portrait) {
+  /* CSS for portrait orientation */
+}
+@media (orientation: landscape) {
+  /* CSS for landscape orientation */
+}
+
 @media (prefers-reduced-motion:reduce) {
   .fa-beat,
   .fa-beat-fade,

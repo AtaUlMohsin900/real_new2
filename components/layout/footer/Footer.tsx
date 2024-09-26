@@ -1,9 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo3.png";
+import axios from "axios";
 
 const Footer = () => {
+  const [email, setEmail] = useState(""); // State to manage email input
+  const [status, setStatus] = useState(""); // State to manage status messages
+
+  // Function to send email
+  const sendEmail = async () => {
+    if (!email) {
+      setStatus("Please enter an email address.");
+      return;
+    }
+
+    try {
+      const API_URL = "http://localhost:3000"; // Node.js server URL
+      const emailData = {
+        to: email, // Using the email from the input field
+        subject: "Test Email 2",
+        text: "This is a test email",
+        html: "<p>This is a test email from Ataul Mohsin</p>",
+      };
+
+      setStatus("Sending email...");
+      const response = await axios.post(`${API_URL}/send-email`, emailData);
+      setStatus("Email sent successfully!");
+
+      return response.data;
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setStatus("Failed to send email.");
+    }
+  };
+
   const currentYear = new Date().getFullYear();
   return (
     <footer
@@ -17,7 +48,7 @@ const Footer = () => {
               <Link href="/" className="logo">
                 <Image src={logo} alt="Image" />
               </Link>
-              <div className="footer__single-meta">
+              <div className="footer__single-meta ">
                 <Link
                   href="https://www.google.com/maps/place/Media+Foundation+Building/../..33.6950944,73.0486352,17z/data=!3m1!4b1!4m6!3m5!1s0x38dfbfc8b476e783:0x1ad4388535624284!8m2!3d33.69509!4d73.0512101!16s%2Fg%2F11_k2bf5k?entry=ttu"
                   target="_blank"
@@ -47,7 +78,7 @@ const Footer = () => {
               <div className="footer__single-intro">
                 <h5>discover</h5>
               </div>
-              <div className="footer__single-content">
+              <div className="footer__single-meta">
                 <ul>
                   <li>
                     <Link href="about-us">About Us</Link>
@@ -75,21 +106,21 @@ const Footer = () => {
                   Welcome to REALITAI We specialize in helping business most
                   like yours succeed online.
                 </p>
-                <div className="footer__single-form">
-                  <form action="#" method="post">
-                    <div className="input-email">
-                      <input
-                        type="email"
-                        name="subscribe-news"
-                        id="subscribeNews"
-                        placeholder="Enter Your Email"
-                        required
-                      />
-                      <button type="submit" className="subscribe">
-                        <i className="fa-sharp fa-solid fa-paper-plane"></i>
-                      </button>
-                    </div>
-                  </form>
+                <div className="footer__single-forms">
+                  <div className="input-email">
+                    <input
+                      type="email"
+                      name="subscribe-news"
+                      id="subscribeNews"
+                      placeholder="Enter Your Email"
+                      value={email} // Bind the input value to the state
+                      onChange={(e) => setEmail(e.target.value)} // Update state on change
+                      required
+                    />
+                    <button onClick={sendEmail} className="subscribe">
+                      <i className="fa-sharp fa-solid fa-paper-plane"></i>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

@@ -22,7 +22,8 @@
     "**/*.ts",
     "**/*.tsx",
     "tailwind.config.js",
-    "src/pages/register.js"
+    "src/pages/register.js",
+    "**/*.webp"
   ],
   "exclude": ["node_modules"]
 }

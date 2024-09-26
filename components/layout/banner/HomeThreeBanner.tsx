@@ -39,7 +39,7 @@ const HomeThreeBanner = () => {
           >
             <SwiperSlide>
               <div
-                className="banner-three__slider-single"
+                className="banner-three__slider-single bg-gradient-to-r from-grass to-poison bg-opacity-20"
                 style={{
                   backgroundImage: "url('/images/banner/banner-three-bg.jpg')",
                 }}
@@ -48,7 +48,7 @@ const HomeThreeBanner = () => {
                   <div className="row justify-content-end">
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
-                        <h1 className="light-title">
+                        <h1 className="light-title text-white">
                           Awesome IT & AI Training and Development Services for
                           You.
                         </h1>
@@ -82,7 +82,7 @@ const HomeThreeBanner = () => {
                   <div className="row justify-content-end">
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
-                        <h1 className="light-title">
+                        <h1 className="light-title text-white">
                           Awesome IT & AI Services for Your Business
                         </h1>
                         <div className="section__content-cta cta">
@@ -108,14 +108,14 @@ const HomeThreeBanner = () => {
                 className="banner-three__slider-single"
                 style={{
                   backgroundImage:
-                    "url('/images/banner/banner-two-bg-three.jpg')",
+                    "url('/images/banner/banner-two-bg-three.png')",
                 }}
               >
                 <div className="container">
                   <div className="row justify-content-end">
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
-                        <h1 className="light-title">
+                        <h1 className="light-title text-white">
                           Awesome IT & AI Services for Your Business
                         </h1>
                         <div className="section__content-cta cta">
@@ -156,7 +156,7 @@ const HomeThreeBanner = () => {
         <Image src={dotlarge} alt="Image" className="dot-img" />
         <div className="banner-three__slider-progress-wrapper">
           <div className="container">
-            <div className="banner-three__slider-progress">
+            <div className="banner-three__slider-progress mt-5">
               <div
                 className={
                   "single-item" +
@@ -164,7 +164,7 @@ const HomeThreeBanner = () => {
                 }
               >
                 <span>01</span>
-                <p>TECHNOLOGY CONSULTANTS</p>
+                <p className="text-white">TECHNOLOGY CONSULTANTS</p>
                 <div className="slider-progress"></div>
               </div>
               <div
@@ -174,7 +174,7 @@ const HomeThreeBanner = () => {
                 }
               >
                 <span>02</span>
-                <p>SOFTWARE ENGINEERS</p>
+                <p className="text-white">SOFTWARE ENGINEERS</p>
                 <div className="slider-progress"></div>
               </div>
               <div
@@ -184,7 +184,7 @@ const HomeThreeBanner = () => {
                 }
               >
                 <span>03</span>
-                <p>PRODUCT STRATEGY ADVISORS</p>
+                <p className="text-white">PRODUCT STRATEGY ADVISORS</p>
                 <div className="slider-progress"></div>
               </div>
             </div>

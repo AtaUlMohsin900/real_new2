@@ -141,7 +141,7 @@ i {
 }
 
 .text-primary {
-  color: var(--primary-color);
+  color: var(--theme-color);
 }
 
 .text-secondary {
@@ -149,7 +149,7 @@ i {
 }
 
 .text-tertiary {
-  color: var(--tertiary-color);
+  color: var(--theme-color);
 }
 
 .text-quaternary {
@@ -157,7 +157,7 @@ i {
 }
 
 .text-quinary {
-  color: var(--quinary-color);
+  color: var(--theme-color);
 }
 
 .bg-primary {
@@ -182,7 +182,7 @@ i {
 
 .text-stroke {
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px var(--primary-color);
+  -webkit-text-stroke: 2px var(--theme-color);
   font-family: sans-serif;
 }
 
@@ -245,7 +245,7 @@ i {
     padding: 12px 20px;
     line-height: 1;
     border: 1px solid #414141;
-    color: var(--primary-color);
+    color: #1b7499;
     border-radius: 30px;
     margin-bottom: 32px;
     text-transform: uppercase;
@@ -273,7 +273,7 @@ i {
     padding: 12px 20px;
     line-height: 1;
     border: 1px solid #414141;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 30px;
     margin-bottom: 32px;
     text-transform: uppercase;
@@ -358,16 +358,16 @@ i {
 
 .slide-btn {
   @include box(74px);
-  border: 1px solid #414141;
+  border: 1px solid #c1c1c1;
   transition: var(--transition);
   background-color: transparent;
-  color: #414141;
+  color: #c1c1c1;
   font-size: 40px;
   z-index: 2;
 
   &:hover {
-    color: var(--white);
-    background-image: linear-gradient(#00c4f4, #6CCDAC);
+    color: var(--black);
+    background-image: linear-gradient(#212526, #6ccdac);
     border: 1px solid var(--primary-color);
   }
 }
@@ -542,6 +542,12 @@ i {
     top: -50px;
     font-size: 24px;
   }
+}
+@media (orientation: portrait) {
+  /* CSS for portrait orientation */
+}
+@media (orientation: landscape) {
+  /* CSS for landscape orientation */
 }
 
 /* ==== 

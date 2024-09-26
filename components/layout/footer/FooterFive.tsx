@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/images/logo1.png";
+import logo from "../../../public/images/logo3.png";
 import gsap from "gsap";
 import chroma from "chroma-js";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -26,7 +26,7 @@ const FooterFive = () => {
         },
       });
 
-      const folksGradient = chroma.scale(["#56e0ff", "#f3e8fd"]);
+      const folksGradient = chroma.scale(["#e5201f", "#f3e8fd"]);
 
       animatedChars.forEach((charElement, index) => {
         const delay = index * 0.04;
@@ -200,7 +200,7 @@ const FooterFive = () => {
                   <span id="copyYear">{currentYear}</span> realitai by{" "}
                   <Link href="#" target="_blank">
                     {" "}
-                    UltraDevs
+                    IT Section
                   </Link>{" "}
                   . All Rights Reserved
                 </p>

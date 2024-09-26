@@ -32,7 +32,7 @@ const HeaderFour = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
     };
   }, []);
 
-  const defaultClasses = "primary-navbar quaternary--navbar";
+  const defaultClasses = "primary-navbar theme--navbar";
 
   const combinedClasses = `${
     scrolled ? " navbar-active" : " "
