@@ -22,12 +22,6 @@ Thumbs.db
 .idea/
 .vscode/
 
-# npm package-lock file
-package-lock.json
-
-# Yarn lock file
-yarn.lock
-
 # Cache
 /.cache/
 
